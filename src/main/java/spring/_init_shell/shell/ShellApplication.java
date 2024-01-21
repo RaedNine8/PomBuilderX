@@ -40,7 +40,7 @@ class CustomPromptProvider implements PromptProvider {
 
 	@Override
 	public AttributedString getPrompt() {
-		return new AttributedString("initializr-plusplus:>", AttributedStyle.DEFAULT.foreground(AttributedStyle.GREEN));
+		return new AttributedString("PomBuilderX:>", AttributedStyle.DEFAULT.foreground(AttributedStyle.GREEN));
 	}
 
 
