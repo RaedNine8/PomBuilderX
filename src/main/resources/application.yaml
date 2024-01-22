@@ -1,0 +1,8 @@
+management:
+  endpoints:
+    enabled-by-default: true
+    health:
+      show-details: always
+    web:
+      exposure:
+        include: '*'
